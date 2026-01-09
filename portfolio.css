@@ -69,7 +69,7 @@ header {
   background: url(../images/developer.png), url(../images/header_bg.png),
     #fff8f3;
   padding-top: 50px;
-  background-position: top left, bottom right;
+  background-position: 25px 38px, bottom right;
   background-repeat: no-repeat;
 }
 nav {
@@ -178,3 +178,104 @@ nav {
      line-height: 28px;
      color: #757575;
 }
+.resume{
+  padding-top: 130px;
+}
+.resume .section_heading h2{
+  text-align: center;
+}
+.resume .resume_continar{
+  max-width: 1140px;
+  width: 71%;
+  margin: 113px auto 0px;
+  display: flex;
+  gap: 24px;
+}
+.resume_continar .section_title{
+  color:#474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.resume_card{
+  max-width: 511px;
+  margin-right: 47px;
+}
+.resume_card .card_title{
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom:10px;
+  color: #474747;
+}
+.resume_card .card_info{
+  font-size:20px;
+  font-weight:600;
+  margin-bottom:20px;
+  color: #757575;
+}
+.resume_card .card_text{
+  font-size:16px;
+  line-height:28px;
+  margin-bottom:20px;
+  color: #757575;
+}
+.resume_continar hr{
+  margin: 30px 0px;
+}
+.button_center{
+  text-align: center;
+}
+footer{
+  margin-top: 130px;
+  background-color: #fff8f3;
+  padding: 130px 0px;
+}
+footer .footer_container{
+  width: 71%;
+  max-width: 1140px;
+  margin:0px auto;
+  display: flex;
+  gap:116px;
+}
+.footer_container .social{
+  max-width: 562px;
+}
+.footer_container h2{
+  color: #181818;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.footer_container .social p{
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.footer_container .icon a{
+  margin-right: 24px;
+}
+.footer_container form input[type=text]{
+  width: 461px;
+  padding: 31px;
+  margin-bottom: 24px;
+  border:none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.footer_container form input[type=email]{
+  width: 461px;
+  padding: 31px;
+  margin-bottom: 24px;
+  border:none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.footer_container form textarea{
+  width: 461px;
+  padding: 25px;
+  margin-bottom: 24px;
+  border:none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
